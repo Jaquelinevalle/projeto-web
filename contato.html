@@ -6,42 +6,56 @@
 		<meta name="description" content="Projeto Portfólio">
 		<meta name="author" content="Generation Brasil - Turma 77">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
+		
+		<!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 		<title>Meu Perfil</title>
 	</head>
 	<body>
 		<!-- Cabeçalho da Página (header) -->
 		<header>
+
 			<!-- Div Conteudo do Cabeçalho -->
-			<div id="header_content">
+			<div id="header_content" class="flex">
+
 				<!-- Titulo do Cabeçalho -->
 				<div id="titulo">
+
 					<!-- Seu nome -->
-					<h1>Generation Brasil - Turma 77</h1>
+					<h1>Generation Brasil</h1>
+
 				</div>
 
 				<!-- Conteudo do Menu da Página (header) -->
 				<div id="menu">
+
 					<!-- Menu da Página -->
 					<nav>
+
 						<!-- Marcadores não ordenados + links -->
 						<ul id="menu">
 							<li>
-								<a href="index.html"> Home </a>
+								<a href="index.html">Home</a>
 							</li>
 							<li>
-								<a href="contato.html"> Contato </a>
+								<a href="contato.html">Contato</a>
 							</li>
 						</ul>
+
 					</nav>
+
 				</div>
+
 			</div>
+
 		</header>
 
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
 			 <!-- Seção Formulário de Contato e Redes Sociais -->
-             <section id="contact">
+             <section id="contact" class="flex"> 
 
                 <!-- Seção do Formulário -->
                 <form action="#" method="submit" id="formulario">
@@ -85,33 +99,52 @@
 					</textarea>
 
 					<button type="submit">Enviar</button>
-
+                 
         
 	                </iframe>
-                </article>
+
+					<!-- Seção do Google Maps-->
+                </article id="mapa" class="flex_start">
+				          <div id="endereço">
+							       <p>Campo Grande</p>
+								   <p> Rio de Janeiro - RJ</p>
+
+						  </div>
+                          <iframe
+						           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117621.7526854735!2d-43.55255024999999!3d-22.88828494999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be17999363715%3A0x46c3f27867ad9332!2sCampo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1736360862641!5m2!1spt-BR!2sbr" 
+								   width="600" 
+								   height="450" 
+								   style="border:0;" 
+								   allowfullscreen="" 
+								   loading="lazy" 
+								   referrerpolicy="no-referrer-when-downgrade">
+								   
+								</iframe>
+				
                 
             </section>
 
 		</main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+<!-- Rodapé da Página (footer) -->
+<footer class="flex">
 
-			<!-- Seção de Contato - Redes Sociais -->
-            <section id="redes_sociais">
+	<!-- Seção de Contato - Redes Sociais-->
+	<section id="redes_sociais">
 
-                    <a href="www.linkedin.com/in/jaqueline-valle">
-                        
-                    </a>
-                    <a href="https://github.com/Jaquelinevalle">
-                        
+		<a href="">
+			<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+		</a>
+		<a href="">
+			<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+		</a>
+		<a href="">
+			<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+		</a>
 
-            </section>
+	</section>
 
-			<h3>
-				Feito por Jaqueline Costa - 2025
-			</h3>
+	<h3>Feito com 🧡 por Generation Brasil - 2024</h3>
 
-		</footer>
-	</body>
-</html>
+</footer>
